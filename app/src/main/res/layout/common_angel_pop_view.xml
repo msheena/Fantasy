@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.tail.fantasy.pop.AngleLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/angle_pop_container"
+    app:angleWidth="9dp"
+    app:angleHeight="4.5dp"
+    app:paintColor="#000"
+    app:radius="4dp"
+    >
+
+
+</cn.tail.fantasy.pop.AngleLayout>

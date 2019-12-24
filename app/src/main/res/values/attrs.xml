@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AngleLayout">
+        <attr name="angleWidth" format="reference|dimension"/>
+        <attr name="angleHeight" format="reference|dimension"/>
+        <attr name="paintColor" format="reference|color"/>
+        <attr name="paintStyle" format="enum">
+            <enum name="FILL" value="0"/>
+            <enum name="STROKE" value="1"/>
+        </attr>
+        <attr name="paintWidth" format="reference|dimension"/>
+        <attr name="radius" format="reference|dimension"/>
+        <attr name="angelPosition" format="enum">
+            <enum name="LEFT" value="0"/>
+            <enum name="TOP" value="1"/>
+            <enum name="RIGHT" value="2"/>
+            <enum name="BOTTOM" value="3"/>
+        </attr>
+        <attr name="xOffset" format="dimension|reference"/>
+        <attr name="yOffset" format="dimension|reference"/>
+
+    </declare-styleable>
+</resources>

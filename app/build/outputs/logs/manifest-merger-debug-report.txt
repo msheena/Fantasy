@@ -1,0 +1,157 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/sheena/.gradle/caches/transforms-2/files-2.1/ca0838521985210b612f53e9f817ed67/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/sheena/.gradle/caches/transforms-2/files-2.1/7f5fa6ce1a21d7d85ed1926f2f04bc9f/jetified-core-ktx-1.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sheena/.gradle/caches/transforms-2/files-2.1/cb03767d570dabaa4f9c99205f614fc0/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/48614c156e59fdcf129da174a69139aa/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/3f520280b32203a2d23b5d4acec71044/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/737f8437de3a21d169fb84c7c23b7f8b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/2ce4392341569eb0ddec0e19190f98eb/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/sheena/.gradle/caches/transforms-2/files-2.1/511011d4682d71ae9dc980a1045533ee/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/ce336a83d75f87cab922b5570cd92809/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/50d604d4ad9de1f4c16e06c8ea2ab6ab/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/39652e79a34efde210d47399f14f4fca/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/15ae56a34cb2d5ef3ec1ec9da745a7df/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/836c43b4d81bea0015cda760fe878115/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/7cdb52395d9a3312f85241b20be1878f/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/16f671bcc9161ad5e9af5841dfdd854e/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/f026a42c574483a4233e690fdefe9560/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.2] /Users/sheena/.gradle/caches/transforms-2/files-2.1/234eaae154693d61013d29f421a23253/core-1.0.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/e7f49c8fb26a67ca8feb1d0ab4e59e23/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/edae5bd6e121d5d9ecb98ed2c4f39c7a/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/b7e915ab05f2f05ab0fe9878881f1793/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/19e8d54224ebf3c9ab06fab3feec891b/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/90fd7ad9e7a4d0ae3f3ff851e8264dc3/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/6fb1447f998a9fb1f9676bc6c3295711/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/026376596527cc0f32dab4f84f9d3df6/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/d4b6dced320e39ccc1796d2e51fb328b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/e11defc3ecc902a90fdcc4ca9d3e0d00/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/923c085ff2aca15245e716eba954323a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/498045fadb8826ee15491ae6845ec784/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sheena/.gradle/caches/transforms-2/files-2.1/cb03767d570dabaa4f9c99205f614fc0/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sheena/.gradle/caches/transforms-2/files-2.1/cb03767d570dabaa4f9c99205f614fc0/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.2] /Users/sheena/.gradle/caches/transforms-2/files-2.1/234eaae154693d61013d29f421a23253/core-1.0.2/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.2] /Users/sheena/.gradle/caches/transforms-2/files-2.1/234eaae154693d61013d29f421a23253/core-1.0.2/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/e7f49c8fb26a67ca8feb1d0ab4e59e23/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/e7f49c8fb26a67ca8feb1d0ab4e59e23/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.2] /Users/sheena/.gradle/caches/transforms-2/files-2.1/234eaae154693d61013d29f421a23253/core-1.0.2/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:11:9-40
+activity#cn.tail.fantasy.MainActivity
+ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/sheena/.gradle/caches/transforms-2/files-2.1/ca0838521985210b612f53e9f817ed67/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/sheena/.gradle/caches/transforms-2/files-2.1/ca0838521985210b612f53e9f817ed67/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/sheena/.gradle/caches/transforms-2/files-2.1/7f5fa6ce1a21d7d85ed1926f2f04bc9f/jetified-core-ktx-1.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/sheena/.gradle/caches/transforms-2/files-2.1/7f5fa6ce1a21d7d85ed1926f2f04bc9f/jetified-core-ktx-1.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sheena/.gradle/caches/transforms-2/files-2.1/cb03767d570dabaa4f9c99205f614fc0/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sheena/.gradle/caches/transforms-2/files-2.1/cb03767d570dabaa4f9c99205f614fc0/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/48614c156e59fdcf129da174a69139aa/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/48614c156e59fdcf129da174a69139aa/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/3f520280b32203a2d23b5d4acec71044/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/3f520280b32203a2d23b5d4acec71044/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/737f8437de3a21d169fb84c7c23b7f8b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/737f8437de3a21d169fb84c7c23b7f8b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/2ce4392341569eb0ddec0e19190f98eb/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/2ce4392341569eb0ddec0e19190f98eb/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/sheena/.gradle/caches/transforms-2/files-2.1/511011d4682d71ae9dc980a1045533ee/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/sheena/.gradle/caches/transforms-2/files-2.1/511011d4682d71ae9dc980a1045533ee/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/ce336a83d75f87cab922b5570cd92809/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/ce336a83d75f87cab922b5570cd92809/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/50d604d4ad9de1f4c16e06c8ea2ab6ab/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/50d604d4ad9de1f4c16e06c8ea2ab6ab/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/39652e79a34efde210d47399f14f4fca/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/39652e79a34efde210d47399f14f4fca/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/15ae56a34cb2d5ef3ec1ec9da745a7df/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/15ae56a34cb2d5ef3ec1ec9da745a7df/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/836c43b4d81bea0015cda760fe878115/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/836c43b4d81bea0015cda760fe878115/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/7cdb52395d9a3312f85241b20be1878f/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/7cdb52395d9a3312f85241b20be1878f/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/16f671bcc9161ad5e9af5841dfdd854e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/16f671bcc9161ad5e9af5841dfdd854e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/f026a42c574483a4233e690fdefe9560/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/f026a42c574483a4233e690fdefe9560/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] /Users/sheena/.gradle/caches/transforms-2/files-2.1/234eaae154693d61013d29f421a23253/core-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] /Users/sheena/.gradle/caches/transforms-2/files-2.1/234eaae154693d61013d29f421a23253/core-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/e7f49c8fb26a67ca8feb1d0ab4e59e23/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/e7f49c8fb26a67ca8feb1d0ab4e59e23/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/edae5bd6e121d5d9ecb98ed2c4f39c7a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/edae5bd6e121d5d9ecb98ed2c4f39c7a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/b7e915ab05f2f05ab0fe9878881f1793/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/b7e915ab05f2f05ab0fe9878881f1793/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/19e8d54224ebf3c9ab06fab3feec891b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/19e8d54224ebf3c9ab06fab3feec891b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/90fd7ad9e7a4d0ae3f3ff851e8264dc3/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/90fd7ad9e7a4d0ae3f3ff851e8264dc3/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/6fb1447f998a9fb1f9676bc6c3295711/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/6fb1447f998a9fb1f9676bc6c3295711/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/026376596527cc0f32dab4f84f9d3df6/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/026376596527cc0f32dab4f84f9d3df6/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/d4b6dced320e39ccc1796d2e51fb328b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/d4b6dced320e39ccc1796d2e51fb328b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/e11defc3ecc902a90fdcc4ca9d3e0d00/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/e11defc3ecc902a90fdcc4ca9d3e0d00/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/923c085ff2aca15245e716eba954323a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/923c085ff2aca15245e716eba954323a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/498045fadb8826ee15491ae6845ec784/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/sheena/.gradle/caches/transforms-2/files-2.1/498045fadb8826ee15491ae6845ec784/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sheena/Documents/fantasy/app/src/main/AndroidManifest.xml
