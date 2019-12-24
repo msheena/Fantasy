@@ -76,11 +76,13 @@ public class AnglePopUpWindow extends PopupWindow {
         angleLayout.setAngleOffset(x,y);
     }
 
+    public void setGradient(int startColor,int endColor){
+        angleLayout.setPaintColor(true,startColor,endColor);
+    }
     @Override
     public void showAsDropDown(View anchor) {
         super.showAsDropDown(anchor);
         angleLayout.setAnchorView(anchor);
-        angleLayout.setPaintColor(Color.RED,Color.BLUE);
         angleLayout.invalidate();
     }
 }

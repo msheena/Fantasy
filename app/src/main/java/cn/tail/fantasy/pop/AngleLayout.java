@@ -48,6 +48,8 @@ public class AngleLayout extends FrameLayout {
     private int startColor;
     private int endColor;
 
+    private boolean isGradient;//是否是渐变
+
     public static final int LEFT = 0;
     public static final int TOP = 1;
     public static final int RIGHT = 2;
@@ -112,7 +114,8 @@ public class AngleLayout extends FrameLayout {
         }
     }
 
-    public void setPaintColor(@ColorInt int startColor,@ColorInt int endColor){
+    public void setPaintColor(boolean isGradient,@ColorInt int startColor,@ColorInt int endColor){
+        this.isGradient=isGradient;
         this.startColor=startColor;
         this.endColor=endColor;
     }
@@ -293,8 +296,12 @@ public class AngleLayout extends FrameLayout {
         anglePath.moveTo(sx, sy);
         anglePath.lineTo(cx, cy);
         anglePath.lineTo(ex, ey);
-        LinearGradient linearGradient = new LinearGradient(rectF.left, rectF.top, rectF.right, rectF.bottom, startColor, endColor, Shader.TileMode.CLAMP);
-        paint.setShader(linearGradient);
+
+        if (isGradient) {
+            LinearGradient linearGradient = new LinearGradient(rectF.left, rectF.top, rectF.right, rectF.bottom, startColor, endColor, Shader.TileMode.CLAMP);
+            paint.setShader(linearGradient);
+        }
+
         rectPath.op(anglePath, Path.Op.UNION);
     }
 
