@@ -1,9 +1,9 @@
 # Fantasy
 随便写写的乱七八糟的东西(#^.^#)
 
-##AnglePopUpWindow
+## AnglePopUpWindow
 带有三角尖尖的popupView,可根据剩余空间自动显示在anchorView的上方或者下方
-###使用方法
+## 使用方法
 所有属性支持xml中设置，也支持java代码设置
 ```
 <cn.tail.fantasy.pop.AngleLayout
