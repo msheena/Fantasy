@@ -86,7 +86,12 @@ public class AngleLayout extends FrameLayout {
         anglePosition = ta.getInt(R.styleable.AngleLayout_angelPosition, -1);
         xOffset = ta.getDimension(R.styleable.AngleLayout_xOffset, 0);
         yOffset = ta.getDimension(R.styleable.AngleLayout_yOffset, 0);
+        startColor = ta.getColor(R.styleable.AngleLayout_startColor, Color.BLACK);
+        endColor=ta.getColor(R.styleable.AngleLayout_endColor,Color.BLACK);
         ta.recycle();
+        if (startColor!=endColor){
+            isGradient=true;
+        }
         initPaint();
     }
 
@@ -114,10 +119,10 @@ public class AngleLayout extends FrameLayout {
         }
     }
 
-    public void setPaintColor(boolean isGradient,@ColorInt int startColor,@ColorInt int endColor){
-        this.isGradient=isGradient;
-        this.startColor=startColor;
-        this.endColor=endColor;
+    public void setPaintColor(boolean isGradient, @ColorInt int startColor, @ColorInt int endColor) {
+        this.isGradient = isGradient;
+        this.startColor = startColor;
+        this.endColor = endColor;
     }
 
     /**
@@ -166,6 +171,7 @@ public class AngleLayout extends FrameLayout {
         surplusSpace = DisplayUtil.getScreenHeight(mContext) - anchorY - view.getHeight();
     }
 
+
     /**
      * 设置三角位置
      *
@@ -184,8 +190,8 @@ public class AngleLayout extends FrameLayout {
      * @param yOffset dp
      */
     public void setAngleOffset(float xOffset, float yOffset) {
-            this.xOffset = DisplayUtil.dp2px(mContext,xOffset);
-            this.yOffset = DisplayUtil.dp2px(mContext,yOffset);
+        this.xOffset = DisplayUtil.dp2px(mContext, xOffset);
+        this.yOffset = DisplayUtil.dp2px(mContext, yOffset);
     }
 
 
@@ -226,7 +232,7 @@ public class AngleLayout extends FrameLayout {
                 cy = 1 / 2f * height + yOffset;
                 ex = rectF.left;
                 ey = 1 / 2f * height + angleWidth / 2f + yOffset;
-                setPadding((int) Math.ceil(angleHeight),0,0,0 );
+                setPadding((int) Math.ceil(angleHeight), 0, 0, 0);
 
                 break;
             case RIGHT:
@@ -241,7 +247,7 @@ public class AngleLayout extends FrameLayout {
                 cy = 1 / 2f * height + yOffset;
                 ex = rectF.right;
                 ey = 1 / 2f * height + 1 / 2f * angleWidth + yOffset;
-                setPadding(0,0,(int) Math.ceil(angleHeight),0 );
+                setPadding(0, 0, (int) Math.ceil(angleHeight), 0);
 
                 break;
             case TOP:
@@ -250,13 +256,13 @@ public class AngleLayout extends FrameLayout {
                 rectF.top = angleHeight + paintWidth;
                 rectF.bottom = height - paintWidth;
 
-                sx = angleCenterX - x - angleWidth / 2f + xOffset;
+                sx = angleCenterX == 0 ? rectF.right/2f - angleWidth / 2f + xOffset : angleCenterX - x - angleWidth / 2f + xOffset;
                 sy = rectF.top;
-                cx = angleCenterX - x + xOffset;
+                cx = angleCenterX == 0 ? rectF.right/2f + xOffset : angleCenterX - x + xOffset;
                 cy = paintWidth * 0.8f;
-                ex = angleCenterX - x + angleWidth / 2f + xOffset;
+                ex = angleCenterX == 0 ? rectF.right/2f + angleWidth / 2f + xOffset : angleCenterX - x + angleWidth / 2f + xOffset;
                 ey = rectF.top;
-                setPadding(0,(int) Math.ceil(angleHeight),0,0 );
+                setPadding(0, (int) Math.ceil(angleHeight), 0, 0);
 
                 break;
             case BOTTOM:
@@ -265,13 +271,14 @@ public class AngleLayout extends FrameLayout {
                 rectF.top = paintWidth;
                 rectF.bottom = height - angleHeight - paintWidth;
 
-                sx = angleCenterX - x - angleWidth / 2f + xOffset;
+                sx = angleCenterX==0?rectF.right/2f - angleWidth / 2f + xOffset :angleCenterX - x - angleWidth / 2f + xOffset;
                 sy = rectF.bottom;
-                cx = angleCenterX - x + xOffset;
+                cx = angleCenterX == 0 ? rectF.right/2f + xOffset : angleCenterX - x + xOffset;
+
                 cy = height - paintWidth * 0.8f;
-                ex = angleCenterX - x + angleWidth / 2f + xOffset;
+                ex = angleCenterX == 0 ? rectF.right/2f + angleWidth / 2f + xOffset : angleCenterX - x + angleWidth / 2f + xOffset;
                 ey = rectF.bottom;
-                setPadding(0,0,0, (int) Math.ceil(angleHeight));
+                setPadding(0, 0, 0, (int) Math.ceil(angleHeight));
                 break;
             default:
                 isAboveAnchor = height > surplusSpace;
@@ -286,7 +293,7 @@ public class AngleLayout extends FrameLayout {
                 cy = isAboveAnchor ? height + paintWidth * 0.8f : paintWidth * 0.8f;
                 ex = angleCenterX - x + angleWidth / 2f + xOffset;
                 ey = isAboveAnchor ? rectF.bottom : rectF.top;
-                setPadding(0, isAboveAnchor?0: (int) Math.ceil(angleHeight),0,isAboveAnchor?(int) Math.ceil(angleHeight):0 );
+                setPadding(0, isAboveAnchor ? 0 : (int) Math.ceil(angleHeight), 0, isAboveAnchor ? (int) Math.ceil(angleHeight) : 0);
 
                 break;
         }

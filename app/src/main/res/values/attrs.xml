@@ -18,6 +18,8 @@
         </attr>
         <attr name="xOffset" format="dimension|reference"/>
         <attr name="yOffset" format="dimension|reference"/>
+        <attr name="startColor" format="color|reference"/>
+        <attr name="endColor" format="color|reference"/>
 
     </declare-styleable>
 </resources>
